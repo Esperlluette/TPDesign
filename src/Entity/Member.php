@@ -15,6 +15,16 @@ class Member
         $this->email = $email;
         $this->password = $password;
     }
+    public function __toString()
+    {
+        return sprintf(
+            "Membre #%d\nName : %s\nEmail : %s\nPassword : %s\n",
+            $this->id,
+            $this->name,
+            $this->email,
+            $this->password
+        );
+    }
     public function getId(){
         return $this->id;
     }

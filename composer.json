@@ -1,0 +1,10 @@
+{
+    "name": "ubuntu/tp-design",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
